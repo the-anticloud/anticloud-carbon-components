@@ -1,0 +1,179 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:33ad481f-ac23-512d-9241-6cb647226754",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-07T08:35:22Z",
+    "component": {
+      "type": "application",
+      "name": "CARBON_COMPONENTS",
+      "version": "af2bfd630ebf",
+      "bom-ref": "pkg:generic/anticloud/CARBON_COMPONENTS@af2bfd630ebf",
+      "purl": "pkg:generic/anticloud/CARBON_COMPONENTS@af2bfd630ebf",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "af2bfd630ebf96f9a13fb6ad1ee17e26eeeab79e"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/the-anticloud/anticloud-carbon-components.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@roxi/routify",
+      "version": "^3.6.4",
+      "purl": "pkg:npm/@roxi/routify@^3.6.4",
+      "bom-ref": "npm/@roxi/routify@^3.6.4"
+    },
+    {
+      "type": "library",
+      "name": "@sveltejs/vite-plugin-svelte",
+      "version": "^7.3.1",
+      "purl": "pkg:npm/@sveltejs/vite-plugin-svelte@^7.3.1",
+      "bom-ref": "npm/@sveltejs/vite-plugin-svelte@^7.3.1"
+    },
+    {
+      "type": "library",
+      "name": "@types/mdast",
+      "version": "^4.0.4",
+      "purl": "pkg:npm/@types/mdast@^4.0.4",
+      "bom-ref": "npm/@types/mdast@^4.0.4"
+    },
+    {
+      "type": "library",
+      "name": "@types/prismjs",
+      "version": "^1.26.5",
+      "purl": "pkg:npm/@types/prismjs@^1.26.5",
+      "bom-ref": "npm/@types/prismjs@^1.26.5"
+    },
+    {
+      "type": "library",
+      "name": "@types/unist",
+      "version": "^3.0.3",
+      "purl": "pkg:npm/@types/unist@^3.0.3",
+      "bom-ref": "npm/@types/unist@^3.0.3"
+    },
+    {
+      "type": "library",
+      "name": "carbon-icons-svelte",
+      "version": "^13.15.0",
+      "purl": "pkg:npm/carbon-icons-svelte@^13.15.0",
+      "bom-ref": "npm/carbon-icons-svelte@^13.15.0"
+    },
+    {
+      "type": "library",
+      "name": "carbon-pictograms-svelte",
+      "version": "^13.20.0",
+      "purl": "pkg:npm/carbon-pictograms-svelte@^13.20.0",
+      "bom-ref": "npm/carbon-pictograms-svelte@^13.20.0"
+    },
+    {
+      "type": "library",
+      "name": "clipboard-copy",
+      "version": "^4.0.1",
+      "purl": "pkg:npm/clipboard-copy@^4.0.1",
+      "bom-ref": "npm/clipboard-copy@^4.0.1"
+    },
+    {
+      "type": "library",
+      "name": "estree-walker",
+      "version": "^3.0.3",
+      "purl": "pkg:npm/estree-walker@^3.0.3",
+      "bom-ref": "npm/estree-walker@^3.0.3"
+    },
+    {
+      "type": "library",
+      "name": "github-slugger",
+      "version": "^2.0.0",
+      "purl": "pkg:npm/github-slugger@^2.0.0",
+      "bom-ref": "npm/github-slugger@^2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "mdsvex",
+      "version": "^0.12.8",
+      "purl": "pkg:npm/mdsvex@^0.12.8",
+      "bom-ref": "npm/mdsvex@^0.12.8"
+    },
+    {
+      "type": "library",
+      "name": "minisearch",
+      "version": "^7.1.0",
+      "purl": "pkg:npm/minisearch@^7.1.0",
+      "bom-ref": "npm/minisearch@^7.1.0"
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "^3.9.9",
+      "purl": "pkg:npm/prettier@^3.9.9",
+      "bom-ref": "npm/prettier@^3.9.9"
+    },
+    {
+      "type": "library",
+      "name": "prettier-plugin-svelte",
+      "version": "^4.1.1",
+      "purl": "pkg:npm/prettier-plugin-svelte@^4.1.1",
+      "bom-ref": "npm/prettier-plugin-svelte@^4.1.1"
+    },
+    {
+      "type": "library",
+      "name": "prism-svelte",
+      "version": "^0.5.0",
+      "purl": "pkg:npm/prism-svelte@^0.5.0",
+      "bom-ref": "npm/prism-svelte@^0.5.0"
+    },
+    {
+      "type": "library",
+      "name": "prismjs",
+      "version": "^1.30.0",
+      "purl": "pkg:npm/prismjs@^1.30.0",
+      "bom-ref": "npm/prismjs@^1.30.0"
+    },
+    {
+      "type": "library",
+      "name": "rehype-slug",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/rehype-slug@^6.0.0",
+      "bom-ref": "npm/rehype-slug@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "svelte",
+      "version": "^5.57.1",
+      "purl": "pkg:npm/svelte@^5.57.1",
+      "bom-ref": "npm/svelte@^5.57.1"
+    },
+    {
+      "type": "library",
+      "name": "unist-util-visit",
+      "version": "^5.1.0",
+      "purl": "pkg:npm/unist-util-visit@^5.1.0",
+      "bom-ref": "npm/unist-util-visit@^5.1.0"
+    },
+    {
+      "type": "library",
+      "name": "vite",
+      "version": "^8.3.1",
+      "purl": "pkg:npm/vite@^8.3.1",
+      "bom-ref": "npm/vite@^8.3.1"
+    }
+  ]
+}
